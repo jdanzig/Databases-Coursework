@@ -1,0 +1,110 @@
+body {
+  margin: 20px;
+}
+.query {
+  display: none;
+  margin-left: 5px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid blue;
+}
+
+.query img:hover {
+  background-color: #ccc;
+}
+
+.tooltipsy
+{
+  padding: 10px;
+  max-width: 450px;
+  color: #303030;
+  background-color: #f5f5b5;
+  border: 1px solid #deca7e;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.nav > li {
+  background-color: #ffc896;
+}
+.nav > li:hover {
+  background-color: #ffa047;
+}
+a {
+  color: #47acff;
+  text-shadow: 1px 1px #999;
+}
+.bs-callout {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #eee;
+  border-image: none;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px 1px 1px 5px;
+  margin: 20px 0;
+  padding: 20px;
+}
+.bs-callout h4 {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code {
+  border-radius: 3px;
+}
+.bs-callout + .bs-callout {
+  margin-top: -5px;
+}
+.bs-callout-danger {
+  border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+  color: #d9534f;
+}
+.bs-callout-warning {
+  border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+  color: #f0ad4e;
+}
+.bs-callout-info {
+  border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+  color: #5bc0de;
+}
+img.delete:hover {
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+}
+span.retweet {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+span.retweet:hover {
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+}
+span.remove {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+span.remove:hover {
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+}
+span.follow, span.unfollow {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+span.follow:hover, span.unfollow:hover {
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+}
